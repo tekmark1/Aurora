@@ -19,7 +19,11 @@ var config = {
   			query: {
   				presets: ["react", "env", "stage-2"]
   			}
-  		}
+  		},
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url-loader?limit=25000'
+      }
   	]
   }
 };
