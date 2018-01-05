@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BackgroundImage from '../images/aurora-background-image.jpg';
+import BackgroundImage from '../../images/aurora-background-image.jpg';
 
 // export class Home extends React.Components {
 // 	componentWillMount() {
@@ -23,7 +23,7 @@ class Background extends Component {
 	render() {
 		return (
 			<div>
-				<img className="background" src={ BackgroundImage } />
+				<img className="bg" src={ BackgroundImage } alt="bg" />
 			</div>
 		)
 	}
