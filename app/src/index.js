@@ -3,6 +3,7 @@ import { render } from "react-dom";
 
 import Background from "./components/Background";
 import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 
 class App extends React.Component {
 	render() {
@@ -10,6 +11,7 @@ class App extends React.Component {
 			<div>
 				<Background />
 				<Header />
+				<NavBar />
 			</div>
 		);
 	}

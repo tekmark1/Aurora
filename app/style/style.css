@@ -29,6 +29,15 @@ img.bg {
 	padding-top: 30px;
 }
 
+.navigation {
+	height: 50px;
+}
+
+.nav-bar {
+	border-radius: 10px;
+	background-color: hsla(0, 0%, 76%, 0.61);
+}
+
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
