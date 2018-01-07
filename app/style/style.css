@@ -15,6 +15,27 @@ img.bg {
 	z-index: -1;
 }
 
+.header-row {
+	text-align: center;
+}
+
+.header-font {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 60px;
+	color: white;
+}
+
+.single-center-vert {
+	padding-top: 30px;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
 @media screen and (max-width: 1024px) {
 	img.bg {
 		left: 50%;
