@@ -30,13 +30,38 @@ img.bg {
 }
 
 .navigation {
-	height: 50px;
+	height: 51px;
 }
 
 .nav-bar {
 	border-radius: 10px;
 	background-color: hsla(0, 0%, 76%, 0.61);
 }
+
+.btn-simple {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ffff;
+  font-size: 22px;
+  background: #3F0666;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  width: 120px;
+  text-decoration: none;
+}
+
+.left-pad {
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+/*.btn:hover {
+  background: #3F0666;
+  text-decoration: none;
+}*/
 
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
