@@ -4,6 +4,7 @@ import { render } from "react-dom";
 import Background from "./components/Background";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
+import Display from "./components/Display";
 
 class App extends React.Component {
 	render() {
@@ -12,6 +13,7 @@ class App extends React.Component {
 				<Background />
 				<Header />
 				<NavBar />
+				<Display />
 			</div>
 		);
 	}

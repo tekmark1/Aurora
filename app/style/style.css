@@ -58,6 +58,16 @@ img.bg {
 	padding-top: 4px;
 }
 
+.display-pad {
+	padding-top: 10px;
+	height: 550px;
+}
+
+.display-radius {
+	border-radius: 10px;
+	background-color: hsla(0, 0%, 76%, 0.61);
+}
+
 /*.btn:hover {
   background: #3F0666;
   text-decoration: none;
