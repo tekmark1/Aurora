@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BackgroundImage from '../../images/aurora-background-no-line.jpg';
+import BackgroundImage from '../../images/aurora-background-blue.jpg';
 
 class Background extends Component {
 	render() {
