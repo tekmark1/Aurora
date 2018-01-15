@@ -10,7 +10,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<Background />
+				{/*<Background /> */}
 				<Header />
 				<NavBar />
 				<Display />
